@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ThirdPersonShooter.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ThirdPersonShooterEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Source\ThirdPersonShooter">
+      <UniqueIdentifier>{8DCF27F5-7A3D-368B-9C12-22003AAFFFA7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ThirdPersonShooter\ThirdPersonShooter.Build.cs">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\ThirdPersonShooter.cpp">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\ThirdPersonShooter.h">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\ThirdPersonShooterCharacter.cpp">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\ThirdPersonShooterCharacter.h">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\ThirdPersonShooterGameMode.cpp">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\ThirdPersonShooterGameMode.h">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\ThirdPersonShooterPlayerController.cpp">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\ThirdPersonShooterPlayerController.h">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClInclude>
+    <Filter Include="Source\ThirdPersonShooter\Variant_Combat">
+      <UniqueIdentifier>{5B1BA8A2-99F8-38F0-9ECB-3E6AD0EB7C0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ThirdPersonShooter\Variant_Combat\AI">
+      <UniqueIdentifier>{EA038BED-ECE0-3BFB-8277-4D09D372BBF5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\AI\EnvQueryContext_Danger.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\AI\EnvQueryContext_Danger.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ThirdPersonShooter\Variant_Combat\Animation">
+      <UniqueIdentifier>{94EB2867-368D-3D07-988D-8983A0690000}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\ThirdPersonShooter\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{761198C9-214E-3888-92F8-F8055CD7995A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\ThirdPersonShooter\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{A75E1302-6A68-3F39-84FB-D05CF2A812BE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\ThirdPersonShooter\Variant_Combat\UI">
+      <UniqueIdentifier>{DF91923F-3614-32A7-A592-280BC6BDABB1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ThirdPersonShooter\Variant_Platforming">
+      <UniqueIdentifier>{4E121B39-727A-3C8B-B53F-20F2666CBB7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ThirdPersonShooter\Variant_Platforming\Animation">
+      <UniqueIdentifier>{0DBF75A8-7878-3D85-BD26-2874BBB6F47B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\ThirdPersonShooter\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\ThirdPersonShooter\Variant_SideScrolling">
+      <UniqueIdentifier>{1C169C70-D6B3-36FE-B990-6501742BFB49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ThirdPersonShooter\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{EB1BD0FD-C0F4-3878-AD3C-BC77AA4C54DC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ThirdPersonShooter\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{524F5D93-AE00-3AD4-AA33-5BBC2C16FBB7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\ThirdPersonShooter\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{9614B30D-5AD6-3BB8-A94D-A84AC4B9C65A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\ThirdPersonShooter\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{3BF16371-C55C-3EC0-8548-0B05258D8483}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\ThirdPersonShooter\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+    <None Include="..\..\ThirdPersonShooter.uproject" />
+  </ItemGroup>
+</Project>
