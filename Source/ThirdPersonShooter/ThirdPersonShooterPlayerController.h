@@ -4,7 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
+#include "HUDWidgetMain.h"
 #include "ThirdPersonShooterPlayerController.generated.h"
+
 
 class UInputMappingContext;
 class UUserWidget;
@@ -48,5 +50,11 @@ protected:
 
 	/** Returns true if the player should use UMG touch controls */
 	bool ShouldUseTouchControls() const;
+
+	UPROPERTY(EditAnywhere);
+	TSubclassOf<UHUDWidgetMain> HUDWidgetClass;
+
+	UPROPERTY(VisibleAnywhere)
+	UHUDWidgetMain* HUDWidget;
 
 };

@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
+#include "HUDWidgetMain.h"
 #include "CombatPlayerController.generated.h"
 
 class UInputMappingContext;
@@ -47,6 +48,8 @@ protected:
 
 	/** Transform to respawn the character at. Can be set to create checkpoints */
 	FTransform RespawnTransform;
+
+
 
 protected:
 

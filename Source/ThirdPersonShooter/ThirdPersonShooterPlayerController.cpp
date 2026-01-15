@@ -31,6 +31,12 @@ void AThirdPersonShooterPlayerController::BeginPlay()
 		}
 
 	}
+	 //Adding Hud to user screen 
+	HUDWidget = CreateWidget<UHUDWidgetMain>(this, HUDWidgetClass);
+	if (HUDWidget)
+	{
+		HUDWidget->AddToViewport();
+	}
 }
 
 void AThirdPersonShooterPlayerController::SetupInputComponent()

@@ -17,6 +17,7 @@ ENGINE_API UClass* Z_Construct_UClass_APlayerController();
 ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
 THIRDPERSONSHOOTER_API UClass* Z_Construct_UClass_AThirdPersonShooterPlayerController();
 THIRDPERSONSHOOTER_API UClass* Z_Construct_UClass_AThirdPersonShooterPlayerController_NoRegister();
+THIRDPERSONSHOOTER_API UClass* Z_Construct_UClass_UHUDWidgetMain_NoRegister();
 UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 UPackage* Z_Construct_UPackage__Script_ThirdPersonShooter();
 // ********** End Cross Module References **********************************************************
@@ -115,6 +116,15 @@ struct Z_Construct_UClass_AThirdPersonShooterPlayerController_Statics
 		{ "ToolTip", "If true, the player will use UMG touch controls even if not playing on mobile platforms" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HUDWidgetClass_MetaData[] = {
+		{ "Category", "ThirdPersonShooterPlayerController" },
+		{ "ModuleRelativePath", "ThirdPersonShooterPlayerController.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HUDWidget_MetaData[] = {
+		{ "Category", "ThirdPersonShooterPlayerController" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ThirdPersonShooterPlayerController.h" },
+	};
 #endif // WITH_METADATA
 
 // ********** Begin Class AThirdPersonShooterPlayerController constinit property declarations ******
@@ -126,6 +136,8 @@ struct Z_Construct_UClass_AThirdPersonShooterPlayerController_Statics
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_MobileControlsWidget;
 	static void NewProp_bForceTouchControls_SetBit(void* Obj);
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_bForceTouchControls;
+	static const UECodeGen_Private::FClassPropertyParams NewProp_HUDWidgetClass;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_HUDWidget;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 // ********** End Class AThirdPersonShooterPlayerController constinit property declarations ********
 	static UObject* (*const DependentSingletons[])();
@@ -147,6 +159,8 @@ void Z_Construct_UClass_AThirdPersonShooterPlayerController_Statics::NewProp_bFo
 	((AThirdPersonShooterPlayerController*)Obj)->bForceTouchControls = 1;
 }
 const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AThirdPersonShooterPlayerController_Statics::NewProp_bForceTouchControls = { "bForceTouchControls", nullptr, (EPropertyFlags)0x0020080000004001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(AThirdPersonShooterPlayerController), &Z_Construct_UClass_AThirdPersonShooterPlayerController_Statics::NewProp_bForceTouchControls_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bForceTouchControls_MetaData), NewProp_bForceTouchControls_MetaData) };
+const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AThirdPersonShooterPlayerController_Statics::NewProp_HUDWidgetClass = { "HUDWidgetClass", nullptr, (EPropertyFlags)0x0024080000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AThirdPersonShooterPlayerController, HUDWidgetClass), Z_Construct_UClass_UClass_NoRegister, Z_Construct_UClass_UHUDWidgetMain_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HUDWidgetClass_MetaData), NewProp_HUDWidgetClass_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AThirdPersonShooterPlayerController_Statics::NewProp_HUDWidget = { "HUDWidget", nullptr, (EPropertyFlags)0x00200800000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AThirdPersonShooterPlayerController, HUDWidget), Z_Construct_UClass_UHUDWidgetMain_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HUDWidget_MetaData), NewProp_HUDWidget_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AThirdPersonShooterPlayerController_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AThirdPersonShooterPlayerController_Statics::NewProp_DefaultMappingContexts_Inner,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AThirdPersonShooterPlayerController_Statics::NewProp_DefaultMappingContexts,
@@ -155,6 +169,8 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AThirdPer
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AThirdPersonShooterPlayerController_Statics::NewProp_MobileControlsWidgetClass,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AThirdPersonShooterPlayerController_Statics::NewProp_MobileControlsWidget,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AThirdPersonShooterPlayerController_Statics::NewProp_bForceTouchControls,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AThirdPersonShooterPlayerController_Statics::NewProp_HUDWidgetClass,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AThirdPersonShooterPlayerController_Statics::NewProp_HUDWidget,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AThirdPersonShooterPlayerController_Statics::PropPointers) < 2048);
 // ********** End Class AThirdPersonShooterPlayerController Property Definitions *******************
@@ -198,10 +214,10 @@ AThirdPersonShooterPlayerController::~AThirdPersonShooterPlayerController() {}
 struct Z_CompiledInDeferFile_FID_Users_kanna_h0c0yc0_Documents_Unreal_Projects_ThirdPersonShooter_Source_ThirdPersonShooter_ThirdPersonShooterPlayerController_h__Script_ThirdPersonShooter_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AThirdPersonShooterPlayerController, AThirdPersonShooterPlayerController::StaticClass, TEXT("AThirdPersonShooterPlayerController"), &Z_Registration_Info_UClass_AThirdPersonShooterPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AThirdPersonShooterPlayerController), 1874959172U) },
+		{ Z_Construct_UClass_AThirdPersonShooterPlayerController, AThirdPersonShooterPlayerController::StaticClass, TEXT("AThirdPersonShooterPlayerController"), &Z_Registration_Info_UClass_AThirdPersonShooterPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AThirdPersonShooterPlayerController), 3522199554U) },
 	};
 }; // Z_CompiledInDeferFile_FID_Users_kanna_h0c0yc0_Documents_Unreal_Projects_ThirdPersonShooter_Source_ThirdPersonShooter_ThirdPersonShooterPlayerController_h__Script_ThirdPersonShooter_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_kanna_h0c0yc0_Documents_Unreal_Projects_ThirdPersonShooter_Source_ThirdPersonShooter_ThirdPersonShooterPlayerController_h__Script_ThirdPersonShooter_1418037726{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_kanna_h0c0yc0_Documents_Unreal_Projects_ThirdPersonShooter_Source_ThirdPersonShooter_ThirdPersonShooterPlayerController_h__Script_ThirdPersonShooter_3882296274{
 	TEXT("/Script/ThirdPersonShooter"),
 	Z_CompiledInDeferFile_FID_Users_kanna_h0c0yc0_Documents_Unreal_Projects_ThirdPersonShooter_Source_ThirdPersonShooter_ThirdPersonShooterPlayerController_h__Script_ThirdPersonShooter_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_kanna_h0c0yc0_Documents_Unreal_Projects_ThirdPersonShooter_Source_ThirdPersonShooter_ThirdPersonShooterPlayerController_h__Script_ThirdPersonShooter_Statics::ClassInfo),
 	nullptr, 0,
